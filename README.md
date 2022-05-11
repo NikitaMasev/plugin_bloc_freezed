@@ -22,21 +22,21 @@ You can install jar file of plugin manualy:
 
 Simply right click on the File Project view, go to `New -> Bloc Freezed`. Also you can use shortcut `CTRL+NUMPAD-2`
 
-![plugin_action](https://github.com/NikitaMasev/plugin_bloc_freezed/assets/plugin_action.png)
+![plugin_action](https://github.com/NikitaMasev/plugin_bloc_freezed/blob/main/assets/plugin_action.png)
 
 Give it a name in dialog windows, prefer using CameCase format.
 
-![plugin_dialog_window](https://github.com/NikitaMasev/plugin_bloc_freezed/assets/plugin_dialog_window.png)
+![plugin_dialog_window](https://github.com/NikitaMasev/plugin_bloc_freezed/blob/main/assets/plugin_dialog_window.png)
 
 Click `OK`. And after you can see new folder and files in File Project View.
 
-![plugin_created_files](https://github.com/NikitaMasev/plugin_bloc_freezed/assets/plugin_created_files.png)
+![plugin_created_files](https://github.com/NikitaMasev/plugin_bloc_freezed/blob/main/assets/plugin_created_files.png)
 
 Generated files:
 
-![plugin_created_bloc](https://github.com/NikitaMasev/plugin_bloc_freezed/assets/plugin_created_bloc.png)
+![plugin_created_bloc](https://github.com/NikitaMasev/plugin_bloc_freezed/blob/main/assets/plugin_created_bloc.png)
 
-![plugin_created_events_states](https://github.com/NikitaMasev/plugin_bloc_freezed/assets/plugin_created_events_states.png)
+![plugin_created_events_states](https://github.com/NikitaMasev/plugin_bloc_freezed/blob/main/assets/plugin_created_events_states.png)
 
 It remains only to generate `freezed` models by: 
 
