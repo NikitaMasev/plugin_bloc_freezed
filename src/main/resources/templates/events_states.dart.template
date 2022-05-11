@@ -1,0 +1,21 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+
+part 'events_states.freezed.dart';
+
+@freezed
+abstract class ${bloc_camel_case}Event with _$${bloc_camel_case}Event {
+  const factory ${bloc_camel_case}Event.start(final String token) = Start;
+}
+
+@freezed
+abstract class ${bloc_camel_case}State with _$${bloc_camel_case}State {
+
+  const factory ${bloc_camel_case}State.initial() = Initial;
+
+  const factory ${bloc_camel_case}State.loading() = Loading;
+
+  const factory ${bloc_camel_case}State.success(final String data) = Success;
+
+  const factory ${bloc_camel_case}State.error(final String error) = Error;
+
+}

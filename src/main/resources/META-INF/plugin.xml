@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>com.masev.intellij_gen.bloc_freezed</id>
+    <name>BlocFreezed</name>
+    <vendor email="nikita.masev@gmail.com">Nikita Masev</vendor>
+
+    <description><![CDATA[
+       Generating Bloc(flutter_bloc) with Freezed states and events.
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <ul>
+          <li>v1.0 - Initial release</li>
+        </ul>
+        ]]>
+    </change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <action class="com.masev.bloc_freezed.BlocFreezedAction"
+                description="Generate Bloc with Freezed"
+                id="GenerateBlocFreezed"
+                text="Bloc Freezed">
+            <add-to-group
+                    group-id="NewGroup"
+                    anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl NUMPAD2"/>
+        </action>
+    </actions>
+</idea-plugin>

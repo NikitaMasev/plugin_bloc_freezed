@@ -1,0 +1,19 @@
+import 'package:bloc/bloc.dart';
+import 'package:${import_events_states}/events_states.dart';
+
+class ${bloc_camel_case}Bloc extends Bloc<${bloc_camel_case}Event, ${bloc_camel_case}State> {
+  ${bloc_camel_case}Bloc() : super(const ${bloc_camel_case}State.initial()) {
+    on<${bloc_camel_case}Event>(
+      (final event, final emit) => event.when(
+        start: (final token) => _start(token, emit),
+      ),
+    );
+  }
+  
+  Future<void> _start(
+    final String token,
+    final Emitter<${bloc_camel_case}State> emit,
+  ) async {
+    
+  }
+}
