@@ -10,7 +10,7 @@ BlocFreezed plugin for  [Android Studio](https://developer.android.com/studio/) 
 You can install jar file of plugin manualy:
 1. Download file by link.
 
-	![download_link](https://github.com/NikitaMasev/plugin_bloc_freezed/build/libs/bloc_freezed-1.0.jar)
+	1.0 ![download_link](https://github.com/NikitaMasev/plugin_bloc_freezed/blob/main/build/libs/bloc_freezed-1.0.jar)
 	
 2. In Android Studio open `File - Settings - Plugins`.  And choose `Install Plugin From Disk`, select jar file.
 
