@@ -14,7 +14,7 @@ You can install jar file of plugin manualy:
 	
 2. In Android Studio open `File - Settings - Plugins`.  And choose `Install Plugin From Disk`, select jar file.
 
-![select_plugin_file](https://github.com/NikitaMasev/plugin_bloc_freezed/assets/plugin_install.png)
+![select_plugin_file](https://github.com/NikitaMasev/plugin_bloc_freezed/blob/main/assets/plugin_install.png)
 
 3. Click `Apply` and `OK`. 
 
